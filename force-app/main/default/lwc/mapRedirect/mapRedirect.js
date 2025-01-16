@@ -14,7 +14,7 @@ export default class MapRedirect extends LightningElement {
             title: 'Patricagate', // Replace with your title
         }
     ];
-
+    //kdjfldjkfdsfjsk
     handleDirectionClick() {
         // const mapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${this.startLatitude},${this.startLongitude}&destination=${this.endLatitude},${this.endLongitude}`;
         const mapsUrl = `https://www.google.com/maps/dir/?api=1&origin=My+Location&destination=${this.endLatitude},${this.endLongitude}`;
